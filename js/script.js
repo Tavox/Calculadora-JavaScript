@@ -133,3 +133,4 @@ function cl() {
 	document.getElementById('resultado').innerHTML = " ";
 }
 
+
