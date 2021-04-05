@@ -1,14 +1,15 @@
-*{
+* {
 	padding: 0px;
 	margin: 0px;
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
+
 .calculadora {
-	background-color: #ededed;
+	background-color: #e2e2e2;
 	width: fit-content;
 	margin: auto;
-	margin-top: 35px;
+	margin-top: 35px
 }
 
 .sr {
@@ -20,17 +21,8 @@
 	background-color: #48c;
 	color: #fff;
 	border: none;
-}
-
-.limpiar {
-	padding: 0px 18px 18px 18px;
-}
-
-.limpiar button {
-	width: 100%;
-	background-color: #48c;
-	color: #fff;
-	border: none;
+	font-size: 50px;
+	padding: 0px
 }
 
 .teclas {
@@ -41,19 +33,19 @@
 	padding: 18px 18px 0px 18px;
 }
 
-.numeros{
+.numeros {
 	padding: 18px 9px 18px 18px;
 }
-
-
 .op {
-	padding: 18px 18px 18px 9px;
+	padding: 18px 18px 18px 9px
 }
 
-#resultado{
+#resultado {
 	background-color: #666;
 	color: #eee;
-	padding: 9px;
+	padding: 6px;
+	font-family: monospace;
+	font-size: 20px
 }
 
 .op button {
@@ -63,26 +55,25 @@
 	padding: 9px 15px;
 	background-color: #000;
 	color: #fff;
-	border: none; 
-
+	border: none;
 }
 
 .numeros div{
-	text-align: center;
+    text-align: center;
 }
 
 .numeros button {
 	border: 0px;
 	background-color: #fff;
-	transition: all 0.09s;
+	transition: all 0.09s
 }
 
 .numeros button:hover {
 	box-shadow: 0px 0px 12px #aaa;
 }
 
-button{
+button {
 	margin: 2px 0px;
-	padding: 15px 24px; 
+	padding: 15px 24px;
 	font-size: 19px;
 }
